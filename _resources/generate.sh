@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# creates necessary numbers png
+# increments properly the number of the files to be compliant with the software
+# if you wish to add your custom fonts, check: $ convert -list font
+# you need imagemagick package
+#
+
 set +x
 
 count=100
